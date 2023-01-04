@@ -1,0 +1,419 @@
+body,
+h1,
+h2 {
+    margin: 0;
+}
+
+.modalBack {
+    background-color: (0, 0, 0, 0.5);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.header img {
+    width: 50px;
+    padding: 0 20px;
+}
+
+.header h1 {
+    padding: 0 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.plan {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.planPlan {
+    display: block;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.planPlan h2 {
+    color: blue;
+}
+
+.planPlan img {
+    width: 300px;
+    height: 200px;
+    border-bottom: 1px solid blue;
+    border-right: 1px solid rgb(174, 174, 243);
+    border-left: 1px solid rgb(174, 174, 243);
+    border-top: 1px solid blue;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.points {
+    padding: 5px;
+    margin: 10px 0;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    border-radius: 10px;
+}
+
+.plan_p {
+    display: block;
+    font-size: 20px;
+    background-color: gray;
+    padding: 10px 100px;
+    margin: 10px;
+    color: lightgray;
+}
+
+.planPoints {
+    display: block;
+    text-align: center;
+}
+
+.planPoints p {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    padding: 12px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.r {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.6s;
+}
+
+.r1m1:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r1m2:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r1m3:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r1m4:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r2m1:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r2m2:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r2m3:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r2m4:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r3m1:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r3m2:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r3m3:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+.r3m4:hover {
+    border-color: green;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    cursor: pointer;
+    color: green;
+}
+
+
+/* важные стили */
+.active {
+    background-color: green;
+    color: white;
+    transform: scale(1.1);
+    border-color: none;
+}
+
+.active:hover {
+    color: white;
+}
+
+/*  */
+
+.buy {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: unset;
+    color: green;
+    font-weight: 600;
+    border: 1px solid green;
+    transition: all 0.3s;
+}
+
+.buy:hover {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+/* modal */
+.Mmodal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.mainModal {
+    display: flex;
+    padding: 10px;
+}
+
+.modal {
+    z-index: 2;
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    height: auto;
+    padding: 20px 20px 50px;
+    margin: 0px auto;
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: white;
+    color: blue;
+    background-color: white;
+}
+
+.modal h1 {
+    color: black;
+    font-weight: 700;
+    margin: 0 40px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: blue;
+    margin: 50px 0;
+}
+
+.inputBlock {
+    display: block;
+}
+
+.input {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: blue;
+}
+
+.input::placeholder {
+    color: black;
+}
+
+.access {
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+}
+
+.card {
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.inputBlockCard {
+    display: block;
+}
+
+.cardText {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: blue;
+}
+
+.uppercard {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.modalBtn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 60px;
+    margin: 30px;
+    color: green;
+    border-color: green;
+    background-color: unset;
+}
+
+.modalBtn:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+.mainModal label {
+    color: blue;
+}
+
+/* modal */
+
+
+
+/* buy */
+.mainBuy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.BBBuy {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+.Bbuy {
+    z-index: 2;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    bottom: auto;
+    padding: 20px 20px 50px;
+    margin: 0px auto;
+    border: 2px solid blue;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+}
+
+.seans {
+    display: flex;
+    justify-content: space-around;
+}
+
+.s {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px 50px;
+    margin: 40px 0 20px;
+}
+
+.s:hover {
+    transition: all 0.3s;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.buyBtn {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 60px;
+    margin: 30px;
+    color: green;
+    border-color: green;
+    background-color: unset;
+}
+
+.buyBtn:hover {
+    transition: all 0.3s;
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
+
+/* buy */
+
+input:invalid {
+    border: 2px dashed red;
+  }
