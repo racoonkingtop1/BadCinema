@@ -473,7 +473,7 @@ buyBtnNode.addEventListener(`click`, function() {
                         <p>20:00</p>
                     </div>
                 </div>
-                <button class="buyBtn">Купить</button>
+
             </div>
         </div>`;
 
